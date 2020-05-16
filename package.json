@@ -1,0 +1,19 @@
+{
+  "name": "startsec-web",
+  "version": "1.0.0",
+  "description": "StartSec Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [
+    "StartSec",
+    "Security",
+    "Website"
+  ],
+  "author": "Juan Díaz",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
