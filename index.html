@@ -244,7 +244,7 @@
       </div>
       <div class="row">
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form id="contact" name="contact" method="POST" data-netlify="true">
+          <form id="contact" name="contact" method="POST" data-netlify="true" action="/success.html">
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
                 <div class="form-group">
@@ -272,8 +272,8 @@
               </div>
             </div>
             <div class="text-center">
-              <!-- <div data-netlify-recaptcha="true" class="mb-4"></div> -->
-              <div id="success"></div>
+              <div data-netlify-recaptcha="true" class="mb-5"></div>
+              <!-- <div id="success"></div> -->
               <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
             </div>
           </form>
@@ -333,16 +333,6 @@
 
   <!-- Scroll -->
   <script src="js/scroll.js"></script>
-  <!-- <script>
-    $("#contact").submit(function (e) {
-      e.preventDefault();
-
-      var $form = $(this);
-      $.post($form.attr("action"), $form.serialize()).then(function () {
-        alert("Thank you!");
-      });
-    });
-  </script> -->
 </body>
 
 </html>
