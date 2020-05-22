@@ -1,11 +1,31 @@
-/*!
- * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  color: #04A2FE;
+}
+
+a:hover {
+  color: #0173b5;
+}
+
+.btn {
+  background: #04A2FE;
+}
+
+.btn:hover {
+  background: #0173b5;
+}
+
+.text-primary {
+  color: #04A2FE !important;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h1,
@@ -21,7 +41,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #04A2FE;
-  background: url('../img/data-1590455_1280.jpg') no-repeat center center;
+  background: url('../img/header.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -41,7 +61,7 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 header.masthead p {
@@ -55,7 +75,7 @@ header.masthead p {
   }
 
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -112,7 +132,7 @@ header.masthead p {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url('../img/close-up-photo-of-keyboard-220357.jpg') no-repeat center center;
+  background: url('../img/contact.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -136,24 +156,4 @@ header.masthead p {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-a {
-  color: #04A2FE;
-}
-
-a:hover {
-  color: #0173b5;
-}
-
-.btn {
-  background: #04A2FE;
-}
-
-.btn:hover {
-  background: #0173b5;
-}
-
-.text-primary {
-  color: #04A2FE !important;
 }
