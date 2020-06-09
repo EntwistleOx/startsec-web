@@ -149,8 +149,8 @@ header.masthead p {
 }
 
 .call-to-action textarea {
-  height: 100%;
-  min-height: 9.1rem;
+  /* height: 100%; */
+  min-height: 6.8rem;
 }
 
 footer.footer {
