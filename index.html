@@ -246,27 +246,28 @@
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form id="contact" name="contact" method="POST" data-netlify="true" action="/success.html">
             <div class="row align-items-stretch">
+              <div class="form-group">
+                <input class="form-control" id="company-name" name="company-name" type="text"
+                  placeholder="Nombre Empresa *" required="required"
+                  data-validation-required-message="Ingresa tu empresa." />
+                <p class="help-block text-danger"></p>
+              </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" name="name" type="text" placeholder="Nombre *"
-                    required="required" data-validation-required-message="Please enter your name." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
                   <input class="form-control" id="email" name="email" type="email" placeholder="Email *"
-                    required="required" data-validation-required-message="Please enter your email address." />
+                    required="required" data-validation-required-message="Ingresa tu email." />
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group mb-md-0">
                   <input class="form-control" id="phone" name="phone" type="tel" placeholder="Telefono *"
-                    required="required" data-validation-required-message="Please enter your phone number." />
+                    required="required" data-validation-required-message="Ingresa tu numero de telefono." />
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
                   <textarea class="form-control" id="message" name="message" placeholder="Mensaje *" required="required"
-                    data-validation-required-message="Please enter a message."></textarea>
+                    data-validation-required-message="Ingresa un mensaje."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
